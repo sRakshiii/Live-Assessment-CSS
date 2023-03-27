@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px aquamarine;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    
+}
+.box{
+    background-color:teal;
+    width: 120px;
+    height: 120px;
+    margin: 50px;
+    justify-content: space-around;
+    border-radius: 1px 60px 1px 60px;
+    box-shadow: 6px 6px 8px aquamarine;
+}
+
+.box1:hover{
+    
+    animation: box1 1s linear infinite;
+}
+
+@keyframes box1 {
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box2:hover{
+    
+    animation: box2 1s linear infinite;
+}
+
+@keyframes box2 {
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box3:hover{
+    
+    animation: box3 1s linear infinite;
+}
+
+@keyframes box3 {
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box4:hover{
+    
+    animation: box4 1s linear infinite;
+}
+
+@keyframes box4 {
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box5:hover{
+    
+    animation: box5 1s linear infinite;
+}
+
+@keyframes box5 {
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
